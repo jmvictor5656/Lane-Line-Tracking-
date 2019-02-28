@@ -44,5 +44,5 @@ When there is shaddow in image its hard to detect a Lane, which is causing issue
 
 1. If its possible to get other image components to detect the `shadow region` or the region with low light intensity then the pipeline can work in any weather condition or in any region.
 
-2. I was trying with `S` part of `HLS` image and with that I combined `R` part of `RGB` image and I seen with `n=5` in my `Line` class and with that It was working good with `optional` video. But with first video it was failing as I was taking pixel values between (100, 255) but when I taken all pixel values between (0, 255),
+2. I was trying with `S` part of `HLS` image and with that I combined `R` part of `RGB` image and I seen with `n=5`(number of frames) in my `Line` class and with that It was working good with `optional` video. But with first video it was failing as I was taking pixel values between (100, 255) but when I taken all pixel values between (0, 255),
 it worked with both but I was not getting the same result, So I have to check more with that
