@@ -31,8 +31,6 @@ My PipeLine consists of 6 steps:
 
 And also I am using a class to track the frames as in some frames lines are not detected properly.
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
 ![alt text][image1]
 
 
